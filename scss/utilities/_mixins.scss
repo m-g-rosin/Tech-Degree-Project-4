@@ -1,0 +1,6 @@
+
+@mixin big {
+    @media (min-width: $medium) {
+        @content;
+    }
+}
